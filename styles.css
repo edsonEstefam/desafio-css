@@ -108,9 +108,9 @@ button:active {
 }
 
 @media screen and (max-width:800px) {
-    body {
+    div {
         width: 100%;
-        height: 40px;
+        height: 40%;
         margin: 0;
         padding: 0;
     }
@@ -121,18 +121,18 @@ button:active {
 
     .left {
         display: block;
-        margin: auto;
-        margin-left: -50px;
+        margin-left: -70px; 
+        margin-right: -50px;
     }
 
 
 
     .right {
         display: block;
-        position: relative;
-        width: 90%;
-        height: 90%;
-        padding: 40px;
+        position: static;
+        width: auto;
+        height: auto;
+        padding: 30px;
 
     }
 
@@ -145,17 +145,19 @@ button:active {
         font-style: normal;
         font-weight: 400;
         line-height: 52px;
+        margin-top: -150px;
 
     }
 
     p {
-        width: 296px;
+        width: 280px;
         color: #5D5D7D;
         text-align: center;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
         line-height: 24px;
+        margin: 60px 0 0 0;
     }
 
     button {
@@ -168,13 +170,15 @@ button:active {
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        margin-top: 50px;
     }
 
     img {
         width: 90%;
+        height: auto;
         flex-shrink: 0;
         position: relative;
-        top: 30px;
+        top: -20px;
         left: 20px;
     }
 }
