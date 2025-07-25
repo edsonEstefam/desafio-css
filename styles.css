@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.left {
+    display: inline-block;
+    width: 60%;
+    margin-top: 25%;
+    padding: 135px;
+}
+
+.right {
+    display: inline-block;
+    background: rgba(93, 93, 125, 0.16);
+    height: 150vh;
+    width: 40%;
+    position: absolute;
+}
+
+.home {
+    color: #5D5D7D;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 41px;
+    margin-left: 25px;
+    cursor: pointer;
+
+}
+
+.home:hover {
+    opacity: 0.8;
+}
+
+.home:active {
+    opacity: 0.4;
+}
+
+a:nth-child(2) {
+    opacity: 0.5;
+}
+
+header {
+    margin: 20px 0 0 15px;
+}
+
+img {
+    position: relative;
+    top: 20%;
+    right: 150px;
+
+}
+
+h1 {
+    width: 368px;
+    color: #5D5D7D;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px;
+}
+
+p {
+    width: 540px;
+    color: #5D5D7D;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    opacity: 0.6;
+    margin: 15px 0;
+}
+
+button {
+    color: #FFF;
+    text-align: center;
+    background: #9499EA;
+    border: none;
+    border-radius: 30px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 269px;
+    height: 62px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+
+}
+
+button:active {
+    opacity: 0.5;
+
+}
+
+@media screen and (max-width:800px) {
+    body {
+        width: 100%;
+        height: 40px;
+        margin: 0;
+        padding: 0;
+    }
+
+    a.home {
+        display: none;
+    }
+
+    .left {
+        display: block;
+        margin: auto;
+        margin-left: -50px;
+    }
+
+
+
+    .right {
+        display: block;
+        position: relative;
+        width: 90%;
+        height: 90%;
+        padding: 40px;
+
+    }
+
+
+    h1 {
+        width: 268px;
+        color: #5D5D7D;
+        text-align: center;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 52px;
+
+    }
+
+    p {
+        width: 296px;
+        color: #5D5D7D;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    button {
+        width: 269px;
+        height: 62px;
+        flex-shrink: 0;
+        color: #FFF;
+        text-align: center;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    img {
+        width: 90%;
+        flex-shrink: 0;
+        position: relative;
+        top: 30px;
+        left: 20px;
+    }
+}
